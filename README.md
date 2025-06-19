@@ -1,16 +1,29 @@
 ## Hi there 👋
 
-<!--
-**yoo040501/yoo040501** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# 👋 About Me
+- 42Seoul에서 C++기반 시스템 프로그래밍을 배우고 있는 김동은입니다
+- 임베디드 시스템, 운영체제에 깊은 관심이 있습니다
+- 효율적인 메모리 사용과 하드웨어 친화적인 소프트웨어 개발을 지향합니다
 
-Here are some ideas to get you started:
+## 🛠 Tech Stack
+- **Language**: C, C++
+- **System**: Linux, Embedded Linux, Shell Script
+- **Tools**: Docker, Git, Makefile
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🚀 42Seoul Projects
+- [libft](링크) - C 표준 라이브러리 구현
+- [get_next_line](링크) - 파일 I/O 함수 구현
+- [minishell](링크) - 간이 Unix Shell 구현
+- [cub3D](링크) - 3D 그래픽 엔진 구현 (Raycasting)
+- [ft_transcendence](링크) - NestJS 기반 풀스택 웹 서비스
+- [push_swap](링크) - 스택 기반 정렬 알고리즘
+
+## 🔍 Currently Learning
+- ARM Cortex-M 기반 MCU 개발
+
+## 📊 GitHub Stats
+![yoo040501's GitHub stats](https://github-readme-stats.vercel.app/api?username=yoo040501&show_icons=true&theme=radical)
+
+## 📫 How to reach me
+- Email: yoo040501@gmail.com
+
