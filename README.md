@@ -18,12 +18,9 @@
 - [ft_transcendence][(링크)](https://github.com/yoo040501/42seoul/tree/master/ft_transcendence) - NestJS 기반 풀스택 웹 핑퐁 게
 - [push_swap][(링크)](https://github.com/yoo040501/42seoul/tree/master/push_swap) - 스택 기반 정렬 알고리즘
 
-## 🔍 Currently Learning
-- ARM Cortex-M 기반 MCU 개발
-
 ## 📊 GitHub Stats
 ![yoo040501's GitHub stats](https://github-readme-stats.vercel.app/api?username=yoo040501&show_icons=true&theme=radical)
 
 ## 📫 How to reach me
-- Email: yoo040501@gmail.com
+- Email: yoo040501@naver.com
 
