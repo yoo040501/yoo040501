@@ -13,10 +13,10 @@
 ## 🚀 42Seoul Projects
 - [libft][(링크)](https://github.com/yoo040501/42seoul/tree/master/libft) - C 표준 라이브러리 구현
 - [get_next_line][(링크)](https://github.com/yoo040501/42seoul/tree/master/get_next_line) - 파일 I/O 함수 구현
-- [minishell]https://github.com/yoo040501/42seoul/tree/master/minishell - 간이 Bash Shell 구현
-- [cub3D]https://github.com/yoo040501/42seoul/tree/master/cub3D - 3D 그래픽 엔진 구현 (Raycasting)
+- [minishell][(링크)]https://github.com/yoo040501/42seoul/tree/master/minishell - 간이 Bash Shell 구현
+- [cub3D][(링크)]https://github.com/yoo040501/42seoul/tree/master/cub3D - 3D 그래픽 엔진 구현 (Raycasting)
 - [ft_transcendence][(링크)](https://github.com/yoo040501/42seoul/tree/master/ft_transcendence) - NestJS 기반 풀스택 웹 핑퐁 게
-- [push_swap]https://github.com/yoo040501/42seoul/tree/master/push_swap - 스택 기반 정렬 알고리즘
+- [push_swap][(링크)]https://github.com/yoo040501/42seoul/tree/master/push_swap - 스택 기반 정렬 알고리즘
 
 ## 🔍 Currently Learning
 - ARM Cortex-M 기반 MCU 개발
