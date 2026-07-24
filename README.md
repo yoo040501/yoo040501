@@ -5,17 +5,21 @@
 ## Core Skills
 
 - **MCU/Firmware**: STM32, GPIO, UART, SPI, I2C, PWM, ADC, Encoder, PID
-- **Embedded Linux**: Buildroot/QEMU 기반 이미지 빌드·부팅, Device Tree·부팅 로그 분석, `/dev` 장치 I/O 실습
 - **Linux System**: C/C++, Process, Pipe, Signal, File Descriptor, Socket Programming
 - **Tools**: STM32CubeIDE, IAR Embedded Workbench, Linux, Docker, Git, Makefile
 
+## Learning Now
+
+- **Embedded Linux 입문**: Buildroot와 QEMU의 역할, ARM Linux 부팅 구성, Device Tree와 부팅 로그를 가이드에 따라 공부하고 있습니다.
+- 현재는 도움 없이 BSP를 포팅하거나 Linux device driver를 개발할 수 있는 단계가 아닙니다.
+
 ## Featured Projects
 
-### [Buildroot/QEMU Embedded Linux Study](https://github.com/yoo040501/buildroot-bsp-study)
+### [Buildroot/QEMU Embedded Linux Learning Notes](https://github.com/yoo040501/buildroot-bsp-study) — In Progress
 
-Buildroot로 ARM Linux 이미지를 생성하고 QEMU Versatile PB와 VExpress A9에서 부팅했습니다. 커널·Device Tree·root filesystem의 역할을 로그로 분석하고, 간단한 character device driver와 user-space 프로그램의 read/write 흐름을 검증했습니다. VExpress 환경에서는 Ethernet 장치 인식과 host-to-guest TCP 통신을 확인했습니다.
+가이드와 도구의 도움을 받아 Buildroot/QEMU 예제의 부팅 과정과 로그를 따라 읽고 있습니다. ARM Linux 이미지 구성, `/dev` 장치 I/O, Ethernet 장치 인식과 TCP 포트포워딩 예제를 복습하는 입문 단계입니다.
 
-> 실제 보드 포팅이나 제품 수준 드라이버 개발이 아닌 QEMU 기반 구조 학습 프로젝트입니다.
+> 독립적으로 수행한 BSP 포팅이나 Linux device driver 개발 경험이 아니라, 현재 진행 중인 학습 기록입니다.
 
 ### [minishell](https://github.com/yoo040501/42seoul/tree/master/minishell)
 
@@ -32,7 +36,7 @@ C/C++ 기반 시스템 프로그래밍, 멀티스레딩, 네트워크, 컨테이
 ## Current Focus
 
 - STM32 주변장치와 모터 제어 경험 정리
-- Embedded Linux 부팅·장치 인식 흐름 학습
+- 가이드 없이 Buildroot/QEMU 부팅 과정을 재현하고 설명하는 연습
 - Linux socket과 제어 로직을 결합한 테스트 가능한 프로젝트 구축
 
 ## Contact
