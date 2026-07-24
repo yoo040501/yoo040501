@@ -1,27 +1,40 @@
-## Hi there 👋
+# 김동은 | Embedded Software Developer
 
-# 👋 About Me
-- 메카트로닉스 전공으로 MCU, 센서 제어, 하드웨어 기반 소프트웨어 개발을 경험했습니다
-- 42Seoul에서 C / C++기반 시스템 프로그래밍을 배운 김동은입니다
-- 임베디드 시스템, 운영체제에 깊은 관심이 있습니다
-- 효율적인 메모리 사용과 하드웨어 친화적인 소프트웨어 개발을 지향합니다
+메카트로닉스를 전공하고 STM32 기반 제어와 Linux 시스템 프로그래밍을 학습한 신입 임베디드 개발자입니다. 하드웨어 동작을 이해하고, 관찰 가능한 로그와 테스트 결과를 바탕으로 문제를 좁혀 가는 개발을 지향합니다.
 
-## 🛠 Tech Stack
-- **Language**: C, C++
-- **System**: Linux, Embedded Linux, Shell Script
-- **Tools**: Docker, Git, Makefile
+## Core Skills
 
-## 🚀 42Seoul Projects
-- [libft][(링크)](https://github.com/yoo040501/42seoul/tree/master/libft) - C 표준 라이브러리 구현
-- [get_next_line][(링크)](https://github.com/yoo040501/42seoul/tree/master/get_next_line) - 파일 I/O 함수 구현
-- [minishell][(링크)](https://github.com/yoo040501/42seoul/tree/master/minishell) - 간이 Bash Shell 구현
-- [cub3D][(링크)](https://github.com/yoo040501/42seoul/tree/master/cub3D) - 3D 그래픽 엔진 구현 (Raycasting)
-- [ft_transcendence][(링크)](https://github.com/yoo040501/42seoul/tree/master/ft_transcendence) - NestJS 기반 풀스택 웹 핑퐁 게임
-- [push_swap][(링크)](https://github.com/yoo040501/42seoul/tree/master/push_swap) - 스택 기반 정렬 알고리즘
+- **MCU/Firmware**: STM32, GPIO, UART, SPI, I2C, PWM, ADC, Encoder, PID
+- **Embedded Linux**: Buildroot/QEMU 기반 이미지 빌드·부팅, Device Tree·부팅 로그 분석, `/dev` 장치 I/O 실습
+- **Linux System**: C/C++, Process, Pipe, Signal, File Descriptor, Socket Programming
+- **Tools**: STM32CubeIDE, IAR Embedded Workbench, Linux, Docker, Git, Makefile
 
-## 📊 GitHub Stats
-![yoo040501's GitHub stats](https://github-readme-stats.vercel.app/api?username=yoo040501&show_icons=true&theme=radical)
+## Featured Projects
 
-## 📫 How to reach me
+### [Buildroot/QEMU Embedded Linux Study](https://github.com/yoo040501/buildroot-bsp-study)
+
+Buildroot로 ARM Linux 이미지를 생성하고 QEMU Versatile PB와 VExpress A9에서 부팅했습니다. 커널·Device Tree·root filesystem의 역할을 로그로 분석하고, 간단한 character device driver와 user-space 프로그램의 read/write 흐름을 검증했습니다. VExpress 환경에서는 Ethernet 장치 인식과 host-to-guest TCP 통신을 확인했습니다.
+
+> 실제 보드 포팅이나 제품 수준 드라이버 개발이 아닌 QEMU 기반 구조 학습 프로젝트입니다.
+
+### [minishell](https://github.com/yoo040501/42seoul/tree/master/minishell)
+
+2인 팀으로 Bash의 핵심 기능을 C로 구현했습니다. 개인적으로 쿼트 상태를 고려한 명령 파싱, 환경 변수 확장, 리디렉션·히어독 분석과 구문 오류 처리를 담당했습니다.
+
+### [ft_irc](https://github.com/yoo040501/42seoul/tree/master/ft_irc)
+
+3인 팀으로 RFC 1459 기반 IRC 서버를 C++98로 구현했습니다. TCP 비차단 소켓과 `kqueue`/`kevent` 이벤트 루프를 사용했으며, 개인적으로 `PASS`, `NICK`, `USER`, `JOIN`, `QUIT` 명령을 담당했습니다.
+
+### [42Seoul Projects](https://github.com/yoo040501/42seoul)
+
+C/C++ 기반 시스템 프로그래밍, 멀티스레딩, 네트워크, 컨테이너 프로젝트를 수행했습니다.
+
+## Current Focus
+
+- STM32 주변장치와 모터 제어 경험 정리
+- Embedded Linux 부팅·장치 인식 흐름 학습
+- Linux socket과 제어 로직을 결합한 테스트 가능한 프로젝트 구축
+
+## Contact
+
 - Email: yoo040501@naver.com
-
